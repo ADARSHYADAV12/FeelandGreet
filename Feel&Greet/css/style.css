@@ -1,0 +1,80 @@
+.bg-custom{
+  background: #007991;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+}
+
+.sr-btn {
+  background-color: 
+}
+
+.nav-link {
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+.nav-link:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 500px) 
+{
+  .nav-link:hover
+  {
+    transform: scale(1.05);
+  }
+}
+
+.jumbotron {
+  height: 100vh;
+  position: relative;
+  background-color: white;
+}
+
+.jb-center {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.jb-text {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+/* Typewriter Effect */
+#container {
+  text-align: center;
+}
+
+#text {
+  font-size: 50px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  color: #007991;
+  letter-spacing: 2px;
+  font-family: 'Indie Flower', cursive;
+}
+
+#cursor {
+  display: inline-block;
+  vertical-align: middle;
+  width: 3px;
+  height: 60px;
+  background-color: orange;
+  animation: blink .15s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { 
+    background-color: transparent 
+  }
+  50% { 
+    background-color: orange; 
+  }
+}
